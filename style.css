@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: #3b4664;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.display-area {
+    background: #181f32;
+    width: 506px;
+    height: 110px;
+    border-radius: 12px;
+    margin: 10px 0 20px 0;
+}
+
+.display-area input {
+    width: 506px;
+    padding: 15px 20px;
+    background: #181f32;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 74px;
+    text-align: right;
+    float: right;
+}
+
+.calculator-area {
+    width: 506px;
+    height: 437px;
+    border-radius: 12px;
+    padding: 35px 25px;
+    background: #252d44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line,
+.last {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+button {
+    margin: 7px 4px;
+    width: 100px;
+    height: 60px;
+    border-radius: 12px;
+    background: #eae3db;
+    color: #3b4664;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.reset-del {
+    background: #3b4664;
+    color: #ffffff;
+}
+
+.equal {
+    background: #d13f30;
+    color: #ffffff;
+}
+
+.last button {
+    width: 205px;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 36px;
+}
